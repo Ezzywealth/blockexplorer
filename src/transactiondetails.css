@@ -1,0 +1,54 @@
+.transaction_container {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+	box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+.transaction_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.details_container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+
+	box-sizing: border-box;
+}
+
+.details_section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 0.5rem 1rem;
+	box-sizing: border-box;
+}
+
+.details {
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	justify-content: flex-start;
+  	width: 100%;
+}
+
+.details_property {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.details_value {
+	font-size: 1rem;
+	margin-bottom: 20px;
+}
